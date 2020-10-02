@@ -68,10 +68,10 @@ RM = /home/arv1k/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arv1k/CLionProjects/cholesky
+CMAKE_SOURCE_DIR = /home/arv1k/CLionProjects/comp_math/cholesky
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arv1k/CLionProjects/cholesky/cmake-build-debug
+CMAKE_BINARY_DIR = /home/arv1k/CLionProjects/comp_math/cholesky/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arv1k/CLionProjects/cholesky/cmake-build-debug/CMakeFiles /home/arv1k/CLionProjects/cholesky/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arv1k/CLionProjects/comp_math/cholesky/cmake-build-debug/CMakeFiles /home/arv1k/CLionProjects/comp_math/cholesky/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arv1k/CLionProjects/cholesky/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arv1k/CLionProjects/comp_math/cholesky/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,33 +170,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cholesky.dir/build.make CMakeFiles/cholesky.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-matrix.o: matrix.cpp.o
-
-.PHONY : matrix.o
-
-# target to build an object file
-matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cholesky.dir/build.make CMakeFiles/cholesky.dir/matrix.cpp.o
-.PHONY : matrix.cpp.o
-
-matrix.i: matrix.cpp.i
-
-.PHONY : matrix.i
-
-# target to preprocess a source file
-matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cholesky.dir/build.make CMakeFiles/cholesky.dir/matrix.cpp.i
-.PHONY : matrix.cpp.i
-
-matrix.s: matrix.cpp.s
-
-.PHONY : matrix.s
-
-# target to generate assembly for a file
-matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cholesky.dir/build.make CMakeFiles/cholesky.dir/matrix.cpp.s
-.PHONY : matrix.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,9 +182,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... matrix.o"
-	@echo "... matrix.i"
-	@echo "... matrix.s"
 .PHONY : help
 
 

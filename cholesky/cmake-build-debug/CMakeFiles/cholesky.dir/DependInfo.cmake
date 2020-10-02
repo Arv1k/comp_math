@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arv1k/CLionProjects/cholesky/main.cpp" "/home/arv1k/CLionProjects/cholesky/cmake-build-debug/CMakeFiles/cholesky.dir/main.cpp.o"
-  "/home/arv1k/CLionProjects/cholesky/matrix.cpp" "/home/arv1k/CLionProjects/cholesky/cmake-build-debug/CMakeFiles/cholesky.dir/matrix.cpp.o"
+  "/home/arv1k/CLionProjects/comp_math/cholesky/main.cpp" "/home/arv1k/CLionProjects/comp_math/cholesky/cmake-build-debug/CMakeFiles/cholesky.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

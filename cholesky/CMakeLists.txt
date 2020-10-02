@@ -3,4 +3,4 @@ project(cholesky)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cholesky main.cpp matrix.h matrix.cpp)
+add_executable(cholesky main.cpp)

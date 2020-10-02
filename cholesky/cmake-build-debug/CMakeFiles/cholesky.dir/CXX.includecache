@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/arv1k/CLionProjects/cholesky/matrix.cpp
+/home/arv1k/CLionProjects/comp_math/cholesky/main.cpp
+cstdio
+-
+cstdlib
+-
 algorithm
 -
 cstring
 -
 cmath
 -
-cstdio
--
 stdexcept
 -
-matrix.h
-/home/arv1k/CLionProjects/cholesky/matrix.h
-
-/home/arv1k/CLionProjects/cholesky/matrix.h
 
